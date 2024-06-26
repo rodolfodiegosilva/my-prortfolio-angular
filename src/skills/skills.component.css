@@ -1,0 +1,110 @@
+.skills-section {
+  background-color: #5d869a; /* Fundo cinza claro */
+  color: #333; /* Cor do texto */
+  text-align: center;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.skills-content {
+  max-width: 1200px; /* Aumentei a largura máxima para ocupar mais espaço */
+  margin: 0 auto;
+}
+
+.skills-content h3 {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Alinhamento ajustado */
+  gap: 20px; /* Adicionado espaçamento entre as habilidades */
+}
+
+.skill {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1 1 calc(33.333% - 40px); /* Ajuste para caber três caixas por linha */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.skill h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 1em;
+  color: #666;
+}
+
+.progress-bar-container {
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.5s;
+}
+
+.progress-bar.Iniciante {
+  width: 33.33%;
+  background-color: #ff9800; /* Cor para Iniciante */
+}
+
+.progress-bar.Intermediário {
+  width: 66.66%;
+  background-color: #4caf50; /* Cor para Intermediário */
+}
+
+.progress-bar.Avançado {
+  width: 100%;
+  background-color: #2196f3; /* Cor para Avançado */
+}
+
+.skill-level {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill {
+    width: 80%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-section {
+    padding: 30px 10px;
+  }
+
+  .skills-content h3 {
+    font-size: 1.8em;
+  }
+
+  .skill h4 {
+    font-size: 1.3em;
+  }
+
+  .skill p {
+    font-size: 0.9em;
+  }
+}
