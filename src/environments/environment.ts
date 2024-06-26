@@ -1,5 +1,5 @@
 export const environment = {
     production: false,
-    githubToken: ''
+    githubToken: 'YOUR_PERSONAL_ACCESS_TOKEN'
   };
   
