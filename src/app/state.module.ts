@@ -5,7 +5,8 @@ import { languageReducer } from './language.reducer';
 
 @NgModule({
   imports: [
-    StoreModule.forRoot({ language: languageReducer }),
+    StoreModule.forRoot({}),
+    StoreModule.forFeature('language', languageReducer),
     EffectsModule.forRoot([])
   ]
 })
