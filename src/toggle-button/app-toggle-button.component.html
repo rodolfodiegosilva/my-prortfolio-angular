@@ -1,0 +1,11 @@
+<label class="switch">
+  <input type="checkbox" (change)="toggleLanguage()" [checked]="isEnglish" />
+  <span class="slider">
+    <span class="round" *ngIf="isEnglish">
+      <img src="assets/us-flag.png" alt="English" class="flag-icon-us" />
+    </span>
+    <span class="round" *ngIf="!isEnglish">
+      <img src="assets/br-flag.png" alt="Portuguese" class="flag-icon-br" />
+    </span>
+  </span>
+</label>
