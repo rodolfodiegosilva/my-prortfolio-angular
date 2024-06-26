@@ -1,0 +1,13 @@
+.img-fluid {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.tech-icon {
+  font-size: 40px;
+}
+.technology-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
