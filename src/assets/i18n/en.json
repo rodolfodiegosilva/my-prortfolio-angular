@@ -21,11 +21,31 @@
   "skills": {
     "title": "Skills",
     "list": [
-      { "name": "JavaScript", "description": "Skilled in JavaScript for both frontend and backend development.", "level": "Advanced" },
-      { "name": "Angular", "description": "Developed multiple applications using Angular framework.", "level": "Advanced" },
-      { "name": "TypeScript", "description": "Experience in using TypeScript for large-scale applications.", "level": "Intermediate" },
-      { "name": "HTML & CSS", "description": "Proficient in HTML and CSS for web development.", "level": "Advanced" },
-      { "name": "Python", "description": "Experience in Python for scripting and web development.", "level": "Intermediate" }
+      {
+        "name": "JavaScript",
+        "description": "Skilled in JavaScript for both frontend and backend development.",
+        "level": "Advanced"
+      },
+      {
+        "name": "Angular",
+        "description": "Developed multiple applications using Angular framework.",
+        "level": "Advanced"
+      },
+      {
+        "name": "TypeScript",
+        "description": "Experience in using TypeScript for large-scale applications.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "HTML & CSS",
+        "description": "Proficient in HTML and CSS for web development.",
+        "level": "Advanced"
+      },
+      {
+        "name": "Python",
+        "description": "Experience in Python for scripting and web development.",
+        "level": "Intermediate"
+      }
     ],
     "levels": {
       "Advanced": "Advanced",
@@ -55,7 +75,7 @@
         "image": "assets/projects/project1/project_1.png",
         "name": "Project One",
         "description": "This is a description for project one.",
-        "technologies": "Angular, Bootstrap, TypeScript",
+        "technologies": ["angular", "nodejs", "postgresql", "react"],
         "frontend": "http://github.com/user/project-one-frontend",
         "backend": "http://github.com/user/project-one-backend",
         "link": "http://example.com/project-one",
@@ -69,7 +89,35 @@
         "image": "assets/projects/project2/project_2.png",
         "name": "Project two",
         "description": "This is a description for project one.",
-        "technologies": "Angular, Bootstrap, TypeScript",
+        "technologies": ["Angular", "Bootstrap", "TypeScript"],
+        "frontend": "http://github.com/user/project-one-frontend",
+        "backend": "http://github.com/user/project-one-backend",
+        "link": "http://example.com/project-one",
+        "images": [
+          "assets/projects/project2/project_2_1.png",
+          "assets/projects/project2/project_2_2.png",
+          "assets/projects/project2/project_2_3.png"
+        ]
+      },
+      {
+        "image": "assets/projects/project1/project_1.png",
+        "name": "Project tree",
+        "description": "This is a description for project one.",
+        "technologies": ["Angular", "Bootstrap", "TypeScript"],
+        "frontend": "http://github.com/user/project-one-frontend",
+        "backend": "http://github.com/user/project-one-backend",
+        "link": "http://example.com/project-one",
+        "images": [
+          "assets/projects/project1/project_1_1.png",
+          "assets/projects/project1/project_1_2.png",
+          "assets/projects/project1/project_1_3.png"
+        ]
+      },
+      {
+        "image": "assets/projects/project2/project_2.png",
+        "name": "Project four",
+        "description": "This is a description for project one.",
+        "technologies": ["Angular", "Bootstrap", "TypeScript"],
         "frontend": "http://github.com/user/project-one-frontend",
         "backend": "http://github.com/user/project-one-backend",
         "link": "http://example.com/project-one",

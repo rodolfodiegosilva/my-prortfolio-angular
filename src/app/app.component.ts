@@ -26,20 +26,24 @@ import { TranslateModule } from '@ngx-translate/core';
     ProjectsComponent,
     GithubDashboardComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
   language$: Observable<string>;
 
-  constructor(private store: Store, private translate: TranslateService, private cdr: ChangeDetectorRef) {
+  constructor(
+    private store: Store,
+    private translate: TranslateService,
+    private cdr: ChangeDetectorRef
+  ) {
     this.language$ = this.store.select(selectLanguage);
   }
 
   ngOnInit() {
-    this.language$.subscribe(language => {
+    this.language$.subscribe((language) => {
       this.translate.use(language);
       this.cdr.detectChanges(); // Forçar detecção de mudanças
     });

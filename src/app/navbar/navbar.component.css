@@ -20,7 +20,7 @@ a {
   align-items: center;
   position: fixed;
   width: 100%;
-  background-color: #398eb9; 
+  background-color: #398eb9;
   color: #efefef;
   z-index: 5;
   padding: 1rem;
@@ -90,16 +90,16 @@ a {
 .nav__link:focus-visible {
   box-shadow: 0 4px 0 -1px #a2e718;
 }
-.toggle-container-responsive{
+.toggle-container-responsive {
   display: none;
 }
 
 /* ----- smaller screen sizes ----- */
 @media (max-width: 520px) {
-  .toggle-container-responsive{
+  .toggle-container-responsive {
     display: inline;
   }
-  .toggle-container-desktop{
+  .toggle-container-desktop {
     display: none;
   }
   .nav__hamburger {
@@ -173,10 +173,10 @@ a {
 }
 
 @media (max-width: 768px) {
-  .toggle-container-responsive{
+  .toggle-container-responsive {
     display: inline;
   }
-  .toggle-container-desktop{
+  .toggle-container-desktop {
     display: none;
   }
   .nav__hamburger {

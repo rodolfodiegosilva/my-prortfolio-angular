@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -28,9 +28,9 @@ main {
 }
 
 h2 {
-  border-bottom: 2px solid #003B46; /* Borda verde-azul escuro */
+  border-bottom: 2px solid #003b46; /* Borda verde-azul escuro */
   padding-bottom: 5px;
-  color: #003B46;
+  color: #003b46;
 }
 
 .project-card {
@@ -38,11 +38,11 @@ h2 {
   padding: 10px;
   margin: 10px 0;
   background-color: #e0f7fa; /* Fundo azul claro */
-  color: #003B46; /* Texto verde-azul escuro */
+  color: #003b46; /* Texto verde-azul escuro */
 }
 
 .hero {
- /*  background: url('path_to_background_image.jpg') no-repeat center center/cover;*/
+  /*  background: url('path_to_background_image.jpg') no-repeat center center/cover;*/
   height: 60vh;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ button:hover {
 }
 
 footer {
-  background-color: #003B46; /* Verde-azul escuro */
+  background-color: #003b46; /* Verde-azul escuro */
   color: white;
   text-align: center;
   padding: 1rem;
