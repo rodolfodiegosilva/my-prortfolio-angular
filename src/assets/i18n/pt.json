@@ -1,0 +1,150 @@
+{
+  "navbar": {
+    "personal_data": "Dados Pessoais",
+    "profile": "Perfil",
+    "skills": "Habilidades",
+    "education": "Formação Acadêmica",
+    "projects": "Projetos",
+    "github_dashboard": "GitHub Dashboard"
+  },
+  "personal_data": {
+    "name": "Rodolfo Silva",
+    "profession": "Engenheiro de Software, Desenvolvedor Full-stack & Analista de Sistema",
+    "description": "Eu crio e desenvolvo soluções elegantemente simples, movido pela minha paixão por criar designs belos e funcionais.",
+    "about_title": "Oi, eu sou Rodolfo Silva. Obrigado por visitar meu site.",
+    "about_description": "Desenvolvedor Web experiente, proficiente em todas as fases do desenvolvimento web. Com sólida experiência em interface do usuário, testes e manutenção de sistemas web, possuo um conjunto diversificado de habilidades e conhecimento em várias tecnologias, incluindo Java, SpringBoot, JavaScript, TypeScript, Angular, React, MongoDB e MySQL. Autogerencio projetos de forma eficaz e colaboro bem em equipe."
+  },
+  "profile": {
+    "about_title": "Oi, eu sou Rodolfo Silva. Obrigado por visitar meu site.",
+    "about_description": "Desenvolvedor Web experiente, proficiente em todas as fases do desenvolvimento web. Com sólida experiência em interface do usuário, testes e manutenção de sistemas web, possuo um conjunto diversificado de habilidades e conhecimento em várias tecnologias, incluindo Java, SpringBoot, JavaScript, TypeScript, Angular, React, MongoDB e MySQL. Autogerencio projetos de forma eficaz e colaboro bem em equipe."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "list": [
+      {
+        "name": "JavaScript",
+        "description": "Experiência em JavaScript para desenvolvimento frontend e backend.",
+        "level": "Avançado"
+      },
+      {
+        "name": "Angular",
+        "description": "Desenvolveu múltiplas aplicações usando o framework Angular.",
+        "level": "Avançado"
+      },
+      {
+        "name": "TypeScript",
+        "description": "Experiência em usar TypeScript para aplicações de grande escala.",
+        "level": "Intermediário"
+      },
+      {
+        "name": "HTML & CSS",
+        "description": "Proficiência em HTML e CSS para desenvolvimento web.",
+        "level": "Avançado"
+      },
+      {
+        "name": "Python",
+        "description": "Experiência em Python para scripting e desenvolvimento web.",
+        "level": "Intermediário"
+      }
+    ],
+    "levels": {
+      "Avançado": "Avançado",
+      "Intermediário": "Intermediário",
+      "Iniciante": "Iniciante"
+    }
+  },
+  "education": {
+    "title": "Formação Acadêmica",
+    "list": [
+      {
+        "degree": "Bacharelado em Ciência da Computação",
+        "institution": "Universidade XYZ",
+        "year": "2010 - 2014"
+      },
+      {
+        "degree": "Mestrado em Engenharia de Software",
+        "institution": "Universidade ABC",
+        "year": "2015 - 2017"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Meus Projetos",
+    "list": [
+      {
+        "image": "assets/projects/project1/project_1.png",
+        "name": "Projeto 1",
+        "description": "Essa é uma descrição do Projeto 1",
+        "technologies": "Angular, Bootstrap, TypeScript",
+        "frontend": "http://github.com/user/project-one-frontend",
+        "backend": "http://github.com/user/project-one-backend",
+        "link": "http://example.com/project-one",
+        "images": [
+          "assets/projects/project1/project_1_1.png",
+          "assets/projects/project1/project_1_2.png",
+          "assets/projects/project1/project_1_3.png"
+        ]
+      },
+      {
+        "image": "assets/projects/project2/project_2.png",
+        "name": "Projeto 2",
+        "description": "Essa é uma descrição do Projeto 2",
+        "technologies": "Angular, Bootstrap, TypeScript",
+        "frontend": "http://github.com/user/project-one-frontend",
+        "backend": "http://github.com/user/project-one-backend",
+        "link": "http://example.com/project-one",
+        "images": [
+          "assets/projects/project2/project_2_1.png",
+          "assets/projects/project2/project_2_2.png",
+          "assets/projects/project2/project_2_3.png"
+        ]
+      },
+      {
+        "image": "assets/projects/project1/project_1.png",
+        "name": "Projeto 3",
+        "description": "Essa é uma descrição do Projeto 1",
+        "technologies": "Angular, Bootstrap, TypeScript",
+        "frontend": "http://github.com/user/project-one-frontend",
+        "backend": "http://github.com/user/project-one-backend",
+        "link": "http://example.com/project-one",
+        "images": [
+          "assets/projects/project1/project_1_1.png",
+          "assets/projects/project1/project_1_2.png",
+          "assets/projects/project1/project_1_3.png"
+        ]
+      },
+      {
+        "image": "assets/projects/project2/project_2.png",
+        "name": "Projeto 4",
+        "description": "Essa é uma descrição do Projeto 2",
+        "technologies": "Angular, Bootstrap, TypeScript",
+        "frontend": "http://github.com/user/project-one-frontend",
+        "backend": "http://github.com/user/project-one-backend",
+        "link": "http://example.com/project-one",
+        "images": [
+          "assets/projects/project2/project_2_1.png",
+          "assets/projects/project2/project_2_2.png",
+          "assets/projects/project2/project_2_3.png"
+        ]
+      }
+    ]
+  },
+  "github_dashboard": {
+    "title": "Repositórios do GitHub",
+    "stars": "Estrelas",
+    "forks": "Forks",
+    "open_issues": "Problemas Abertos",
+    "contributions": "Contribuições",
+    "activity_overview": "Visão Geral das Atividades"
+  },
+  "footer": {
+    "about": "Sobre",
+    "about_description": "Informações sobre a empresa ou o autor do site.",
+    "links": "Links",
+    "home": "Início",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "social": "Redes Sociais",
+    "rights": "Todos os direitos reservados."
+  }
+}
