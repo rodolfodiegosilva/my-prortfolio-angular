@@ -1,0 +1,12 @@
+<div class="education-section full-width">
+  <div class="education-content">
+    <h3>{{ 'education.title' | translate }}</h3>
+    <div class="education-list">
+      <div class="education-item" *ngFor="let edu of education">
+        <h4>{{ edu.degree }}</h4>
+        <p>{{ edu.institution }}</p>
+        <p>{{ edu.year }}</p>
+      </div>
+    </div>
+  </div>
+</div>
