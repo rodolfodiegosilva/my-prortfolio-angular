@@ -11,7 +11,7 @@ interface Project {
   name: string;
   description: string;
   image: string;
-  technologies?: string;
+  technologies?: string[];
   link?: string;
   frontend?: string;
   backend?: string;
@@ -23,7 +23,7 @@ interface Project {
   standalone: true,
   imports: [CommonModule, TranslateModule, ProjectModalComponent],
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
 })
 export class ProjectsComponent implements OnInit {
   language$: Observable<string>;
@@ -31,12 +31,16 @@ export class ProjectsComponent implements OnInit {
   selectedProject?: any;
   projectModal: any;
 
-  constructor(private store: Store, private translate: TranslateService, private cdr: ChangeDetectorRef) {
+  constructor(
+    private store: Store,
+    private translate: TranslateService,
+    private cdr: ChangeDetectorRef
+  ) {
     this.language$ = this.store.select(selectLanguage);
   }
 
   ngOnInit() {
-    this.language$.subscribe(language => {
+    this.language$.subscribe((language) => {
       this.translate.use(language);
       this.loadProjects(); // Carregar projetos quando o idioma mudar
       this.cdr.detectChanges(); // Forçar detecção de mudanças
@@ -53,14 +57,17 @@ export class ProjectsComponent implements OnInit {
         link: project.link,
         frontend: project.frontend,
         backend: project.backend,
-        images: project.images
+        images: project.images,
       }));
     });
   }
 
   openModal(project: Project) {
     this.selectedProject = project;
-    this.projectModal = new bootstrap.Modal(document.getElementById('projectModal'), {});
+    this.projectModal = new bootstrap.Modal(
+      document.getElementById('projectModal'),
+      {}
+    );
     this.projectModal.show();
   }
   closeModal() {
@@ -68,6 +75,6 @@ export class ProjectsComponent implements OnInit {
     if (this.projectModal) {
       this.projectModal.hide();
     }
-    this.cdr.detectChanges();  // Força a detecção de mudanças
+    this.cdr.detectChanges(); // Força a detecção de mudanças
   }
 }

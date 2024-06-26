@@ -10,7 +10,7 @@ import { selectLanguage } from '../language.selectors';
   templateUrl: './app-toggle-button.component.html',
   styleUrls: ['./app-toggle-button.component.css'],
   standalone: true,
-  imports: [CommonModule]
+  imports: [CommonModule],
 })
 export class AppToggleButtonComponent {
   @Output() languageChanged = new EventEmitter<boolean>();
@@ -19,7 +19,7 @@ export class AppToggleButtonComponent {
 
   constructor(private store: Store, private ngZone: NgZone) {
     this.language$ = this.store.select(selectLanguage);
-    this.language$.subscribe(language => {
+    this.language$.subscribe((language) => {
       this.ngZone.run(() => {
         this.isEnglish = language === 'en';
       });

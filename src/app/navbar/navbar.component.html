@@ -1,39 +1,65 @@
 <nav class="nav">
   <a href="#" class="nav__logo">Rodolfo Silva</a>
   <div *ngIf="!menuOpen" class="toggle-container-responsive">
-    <app-toggle-button (languageChanged)="switchLanguage($event)"></app-toggle-button>
+    <app-toggle-button
+      (languageChanged)="switchLanguage($event)"
+    ></app-toggle-button>
   </div>
   <div class="nav__menucontainer">
     <div class="nav__listcontainer" tabindex="0">
       <ul class="nav__menu" id="navmenu" [class.active]="menuOpen">
         <li class="nav__item">
-          <a (click)="scrollToSection('personal-data')" class="nav__link">{{ 'navbar.personal_data' | translate }}</a>
+          <a (click)="scrollToSection('personal-data')" class="nav__link">{{
+            "navbar.personal_data" | translate
+          }}</a>
         </li>
         <li class="nav__item">
-          <a (click)="scrollToSection('profile')" class="nav__link">{{ 'navbar.profile' | translate }}</a>
+          <a (click)="scrollToSection('profile')" class="nav__link">{{
+            "navbar.profile" | translate
+          }}</a>
         </li>
         <li class="nav__item">
-          <a (click)="scrollToSection('skills')" class="nav__link">{{ 'navbar.skills' | translate }}</a>
+          <a (click)="scrollToSection('skills')" class="nav__link">{{
+            "navbar.skills" | translate
+          }}</a>
         </li>
         <li class="nav__item">
-          <a (click)="scrollToSection('education')" class="nav__link">{{ 'navbar.education' | translate }}</a>
+          <a (click)="scrollToSection('education')" class="nav__link">{{
+            "navbar.education" | translate
+          }}</a>
         </li>
         <li class="nav__item">
-          <a (click)="scrollToSection('projects')" class="nav__link">{{ 'navbar.projects' | translate }}</a>
+          <a (click)="scrollToSection('projects')" class="nav__link">{{
+            "navbar.projects" | translate
+          }}</a>
         </li>
         <li class="nav__item">
-          <a (click)="scrollToSection('github-dashboard')" class="nav__link">{{ 'navbar.github_dashboard' | translate }}</a>
+          <a (click)="scrollToSection('github-dashboard')" class="nav__link">{{
+            "navbar.github_dashboard" | translate
+          }}</a>
         </li>
       </ul>
-      <a id="hamburger" (click)="toggleMenu()" title="menu" class="nav__hamburger">
+      <a
+        id="hamburger"
+        (click)="toggleMenu()"
+        title="menu"
+        class="nav__hamburger"
+      >
         <i class="fa fa-2x fa-bars"></i>
       </a>
     </div>
-    <a (click)="toggleMenu()" title="close menu" class="nav__hamburgerclose" [class.show]="menuOpen">
+    <a
+      (click)="toggleMenu()"
+      title="close menu"
+      class="nav__hamburgerclose"
+      [class.show]="menuOpen"
+    >
       <i class="fa fa-2x fa-times"></i>
     </a>
     <div *ngIf="!menuOpen" class="toggle-container-desktop">
-      <app-toggle-button (languageChanged)="switchLanguage($event)"></app-toggle-button>
+      <app-toggle-button
+        (languageChanged)="switchLanguage($event)"
+      ></app-toggle-button>
     </div>
   </div>
 </nav>

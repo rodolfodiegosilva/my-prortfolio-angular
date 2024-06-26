@@ -29,7 +29,7 @@
   left: 4px;
   height: 26px;
   width: 26px;
-  background-color: #398eb9 !important; 
+  background-color: #398eb9 !important;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -50,12 +50,12 @@ input:checked + .slider .round {
   height: 20px;
   position: absolute;
   top: 4px; /* Ajustar para alinhar verticalmente */
-  left: -24px; 
+  left: -24px;
 }
 .flag-icon-br {
   width: 20px; /* Ajustar o tamanho da bandeira */
   height: 20px;
   position: absolute;
   top: 4px; /* Ajustar para alinhar verticalmente */
-  left: 30px; 
+  left: 30px;
 }

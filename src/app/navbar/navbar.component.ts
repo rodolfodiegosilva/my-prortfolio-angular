@@ -12,18 +12,22 @@ import { selectLanguage } from '../language.selectors';
   standalone: true,
   imports: [TranslateModule, AppToggleButtonComponent, CommonModule],
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
   menuOpen: boolean = false;
   language$: Observable<string>;
 
-  constructor(private translate: TranslateService, private store: Store, private cdr: ChangeDetectorRef) {
+  constructor(
+    private translate: TranslateService,
+    private store: Store,
+    private cdr: ChangeDetectorRef
+  ) {
     this.language$ = this.store.select(selectLanguage);
   }
 
   ngOnInit() {
-    this.language$.subscribe(language => {
+    this.language$.subscribe((language) => {
       this.translate.use(language);
       this.cdr.detectChanges(); // Forçar detecção de mudanças
     });

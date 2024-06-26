@@ -16,18 +16,22 @@ interface Skill {
   standalone: true,
   imports: [CommonModule, TranslateModule],
   templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+  styleUrls: ['./skills.component.css'],
 })
 export class SkillsComponent implements OnInit {
   language$: Observable<string>;
   skills: Skill[] = [];
 
-  constructor(private store: Store, private translate: TranslateService, private cdr: ChangeDetectorRef) {
+  constructor(
+    private store: Store,
+    private translate: TranslateService,
+    private cdr: ChangeDetectorRef
+  ) {
     this.language$ = this.store.select(selectLanguage);
   }
 
   ngOnInit() {
-    this.language$.subscribe(language => {
+    this.language$.subscribe((language) => {
       this.translate.use(language);
       this.loadSkills(); // Carregar habilidades quando o idioma mudar
       this.cdr.detectChanges(); // Forçar detecção de mudanças
@@ -39,7 +43,7 @@ export class SkillsComponent implements OnInit {
       this.skills = res.map((skill: any) => ({
         name: skill.name,
         description: skill.description,
-        level: skill.level
+        level: skill.level,
       }));
     });
   }

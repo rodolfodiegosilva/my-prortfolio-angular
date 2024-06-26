@@ -7,9 +7,8 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [CommonModule, TranslateModule],
   templateUrl: './personal-data.component.html',
-  styleUrls: ['./personal-data.component.css']
+  styleUrls: ['./personal-data.component.css'],
 })
 export class PersonalDataComponent {
-
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService) {}
 }
