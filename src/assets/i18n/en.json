@@ -5,7 +5,8 @@
     "skills": "Skills",
     "education": "Education",
     "projects": "Projects",
-    "github_dashboard": "GitHub Dashboard"
+    "github_dashboard": "GitHub Dashboard",
+    "professional_experiences": "Professional Experiences"
   },
   "personal_data": {
     "name": "Rodolfo Silva",
@@ -45,6 +46,76 @@
         "name": "Python",
         "description": "Experience in Python for scripting and web development.",
         "level": "Intermediate"
+      },
+      {
+        "name": "React",
+        "description": "Experienced in building complex UI using React.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "NodeJS",
+        "description": "Built backend services using NodeJS.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Cypress",
+        "description": "Skilled in using Cypress for end-to-end testing.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "SpringBoot",
+        "description": "Developed REST APIs using SpringBoot.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Java",
+        "description": "Proficient in Java for backend development.",
+        "level": "Advanced"
+      },
+      {
+        "name": "Laravel",
+        "description": "Experienced in building web applications using Laravel.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "PHP",
+        "description": "Developed server-side logic using PHP.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "MySQL",
+        "description": "Managed databases using MySQL.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "PostgreSQL",
+        "description": "Skilled in PostgreSQL for database management.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "SQL",
+        "description": "Proficient in writing SQL queries.",
+        "level": "Advanced"
+      },
+      {
+        "name": "MongoDB",
+        "description": "Experience with MongoDB for NoSQL database management.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Linux",
+        "description": "Comfortable using Linux for development and deployment.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Docker",
+        "description": "Skilled in using Docker for containerization.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Git",
+        "description": "Experienced in version control using Git.",
+        "level": "Advanced"
       }
     ],
     "levels": {
@@ -139,12 +210,119 @@
   },
   "footer": {
     "about": "About",
-    "about_description": "Information about the company or the author of the site.",
+    "about_description": "Diego Seven Sistemas specializes in software, web, and mobile development, delivering innovative solutions for your business needs.",
+    "location": "Location",
+    "location_description": "Manaus, Amazonas, Brazil",
     "links": "Links",
     "home": "Home",
     "projects": "Projects",
     "contact": "Contact",
-    "social": "Social Networks",
-    "rights": "All rights reserved."
+    "social": "Social",
+    "rights": "All rights reserved.",
+    "contact_email": "example@example.com",
+    "github_link": "https://github.com/rodolfodiegosilva",
+    "linkedin_link": "https://www.linkedin.com/in/eng-rodolfo-diego/",
+    "twitter_link": "https://x.com/DiegoSeven_mcfc",
+    "instagram_link": "https://www.instagram.com/rodolfodiegogomes"
+  },
+  "professionalExperiences": {
+    "title": "Professional Experiences",
+    "view_details": "View Details",
+    "close": "Close",
+    "experiences": [
+      {
+        "position": "Full Stack Developer",
+        "company": "CI&T Software",
+        "period": "January 2024 — Present",
+        "responsibilities": [
+          "Design and develop applications using Agile Scrum methodology, using Atlassian tools like Jira and Confluence, dividing the project into multiple sprints.",
+          "Use Bitbucket for version control collaborating with other developers using pull requests.",
+          "Bamboo and Nexus are used for continuous integration of builds.",
+          "Design and develop web applications using HTML, CSS, SASS, JavaScript, Angular and NodeJS.",
+          "Responsible for the style, appearance and behavior of the web page with SASS that extends CSS with dynamic behavior such as variables, mixins, operations, and functions.",
+          "Use custom Angular directives and develop reusable components and templates that could be reused in various locations of the application.",
+          "Develop reusable Typescript components and services to consume REST APIs using component-based architecture provided by Angular.",
+          "Develop new endpoints in SpringBoot that provided JSON data to the Angular web application.",
+          "Implement HTTP requests using the Observable RxJS library to handle multiple types of values.",
+          "Experienced working with advanced JavaScript like ECMAScript 6 (ES6).",
+          "Develop unit tests for all classes created using Jest Framework, JUnit and Mockito in TDD environment.",
+          "Develop APIs to interact with the database using Spring Boot. Worked extensively with Spring JDBC, Spring Hibernate ORM and JPA.",
+          "Use Swagger to document all service APIs, documenting request body, header and response details."
+        ],
+        "environment": "Angular, JavaScript, Typescript, npm, NodeJs, Spring Boot, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Bamboo, Nexus, Bitbucket and Git Bash"
+      },
+      {
+        "position": "Full Stack Developer",
+        "company": "Sidia Instituto de Ciência e Tecnologia",
+        "period": "November 2021 — October 2023",
+        "responsibilities": [
+          "Design and develop applications using Agile Scrum methodology, using Atlassian tools like Jira and Confluence, dividing the project into multiple sprints.",
+          "Use Git for version control collaborating with other developers using pull requests.",
+          "Jenkins and JFrog were used for continuous integration of builds.",
+          "Design and develop web applications using HTML, CSS, SASS, Bootstrap, JavaScript, React, Angular and NodeJS.",
+          "Responsible for the style, appearance and behavior of the web page with SASS that extends CSS with dynamic behavior such as variables, mixins, operations, and functions.",
+          "Use custom Angular and React directives and develop reusable components and templates that could be reused in various locations of the application.",
+          "Develop reusable Typescript components and services to consume REST APIs using component-based architecture provided by Angular and React.",
+          "Develop new endpoints in SpringBoot that provided JSON data to the Angular and React web applications.",
+          "Implement HTTP requests using the Observable RxJS library to handle multiple types of values.",
+          "Experienced working with advanced JavaScript like ECMAScript 6 (ES6).",
+          "Develop unit tests for all classes created using Jest Framework, JUnit and Mockito in TDD environment.",
+          "Develop APIs to interact with the database using Spring Boot. Worked extensively with Spring JDBC, Spring Hibernate ORM and JPA.",
+          "Develop job projects in Spring Batch that consumed external APIs interacting and receiving data from RabbitMQ.",
+          "Use Swagger to document all service APIs, documenting request body, header and response details."
+        ],
+        "environment": "Angular, React, JavaScript, Typescript, npm, NodeJs, Spring Boot, Spring Batch, RabbitMQ, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Jenkins, JFrog, GitHub and Git Bash"
+      },
+      {
+        "position": "Junior Full Stack Developer",
+        "company": "Groupe MM - Mercadomóveis",
+        "period": "August 2021 — November 2021",
+        "responsibilities": [
+          "Design and develop applications using Agile Scrum methodology, using Atlassian tools like Jira and Confluence, dividing the project into multiple sprints.",
+          "Design and develop web applications using HTML, CSS, SASS, Bootstrap, JavaScript, React, Angular and NodeJS.",
+          "Involved in using GIT for version management and workflows associated with branching and merging.",
+          "Responsible for the style, appearance and behavior of the web page with SASS that extends CSS with dynamic behavior such as variables, mixins, operations, and functions.",
+          "Use various custom Angular and React directives and develop reusable components and templates that could be reused in various locations of the application.",
+          "Create reusable Typescript components and services to consume REST APIs using component-based architecture provided by Angular and React.",
+          "Develop new web service endpoints that provide JSON data to the Angular web application.",
+          "Implement HTTP requests using the Observable RxJS library to handle multiple types of values.",
+          "Experienced working with advanced JavaScript like ECMAScript 6 (ES6).",
+          "Performed unit tests after writing the code using Jest Framework and involved in TDD environment."
+        ],
+        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, PostgreSQL, GitHub and Git Bash"
+      },
+      {
+        "position": "Junior Full Stack Developer",
+        "company": "Silva Ramos Sistemas",
+        "period": "December 2020 — November 2021",
+        "responsibilities": [
+          "Design and develop web applications using HTML, CSS, SASS, Bootstrap, JavaScript, Angular and NodeJS.",
+          "Involved in using GIT for version management and workflows associated with branching and merging.",
+          "Responsible for the style, appearance and behavior of the web page with SASS that extends CSS with dynamic behavior such as variables, mixins, operations, and functions.",
+          "Use various custom Angular directives and develop reusable components and templates that could be reused in various locations of the application.",
+          "Create reusable Typescript components and services to consume REST APIs using component-based architecture provided by Angular.",
+          "Develop new web service endpoints that provide JSON data to the Angular web application.",
+          "Implement HTTP requests using the Observable RxJS library to handle multiple types of values.",
+          "Experienced working with advanced JavaScript like ECMAScript 6 (ES6)."
+        ],
+        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, Bitbucket and Git Bash"
+      },
+      {
+        "position": "Junior Full Stack Developer",
+        "company": "Instituto Xavier Serviços em T.I.",
+        "period": "June 2020 — December 2020",
+        "responsibilities": [
+          "Design and develop web applications using HTML, CSS, SASS, Bootstrap, JavaScript, Angular and NodeJS.",
+          "Involved in using GIT for version management and workflows associated with branching and merging.",
+          "Responsible for the style, appearance and behavior of the web page with SASS that extends CSS with dynamic behavior such as variables, mixins, operations, and functions.",
+          "Use various custom Angular directives and develop reusable components and templates that could be reused in various locations of the application.",
+          "Create reusable Typescript components and services to consume REST APIs using component-based architecture provided by Angular.",
+          "Develop new web service endpoints that provide JSON data to the Angular web application.",
+          "Implement HTTP requests using the Observable RxJS library to handle multiple types of values.",
+          "Experienced working with advanced JavaScript like ECMAScript 6 (ES6)."
+        ],
+        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, GitLab and Git Bash"
+      }
+    ]
   }
 }
