@@ -84,12 +84,14 @@ a {
   color: inherit;
   text-decoration: none;
   width: 100%;
+  cursor: pointer; /* Adiciona a mãozinha ao passar o mouse */
 }
 
 .nav__link:hover,
 .nav__link:focus-visible {
   box-shadow: 0 4px 0 -1px #a2e718;
 }
+
 .toggle-container-responsive {
   display: none;
 }

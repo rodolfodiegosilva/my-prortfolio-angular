@@ -19,6 +19,13 @@
           }}</a>
         </li>
         <li class="nav__item">
+          <a
+            (click)="scrollToSection('professional-experiences')"
+            class="nav__link"
+            >{{ "navbar.professional_experiences" | translate }}</a
+          >
+        </li>
+        <li class="nav__item">
           <a (click)="scrollToSection('skills')" class="nav__link">{{
             "navbar.skills" | translate
           }}</a>

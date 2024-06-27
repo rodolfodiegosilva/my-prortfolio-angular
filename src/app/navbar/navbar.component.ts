@@ -1,11 +1,11 @@
 import { Component, ChangeDetectorRef, OnInit } from '@angular/core';
-import { TranslateService, TranslateModule } from '@ngx-translate/core';
-import { AppToggleButtonComponent } from '../toggle-button/app-toggle-button.component';
-import { CommonModule } from '@angular/common';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { setLanguage } from '../language.actions';
 import { selectLanguage } from '../language.selectors';
+import { AppToggleButtonComponent } from '../toggle-button/app-toggle-button.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
