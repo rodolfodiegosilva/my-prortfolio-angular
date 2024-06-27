@@ -153,7 +153,7 @@ export class GithubDashboardComponent implements OnInit {
       this.repositories = this.allRepositories.slice(0, 6);
     } else {
       // Mostrar os 12 repositórios mais recentes
-      this.repositories = this.allRepositories.slice(0, 12);
+      this.repositories = this.allRepositories.slice(0, 15);
     }
   }
 }

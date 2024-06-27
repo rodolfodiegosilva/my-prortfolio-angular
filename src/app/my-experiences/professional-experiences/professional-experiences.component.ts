@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { selectLanguage } from '../language.selectors';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { ProfessionalExperienceModalComponent } from '../experience-modal/professional-experience-modal.component';
+import { selectLanguage } from '../../language.selectors';
 
 declare var bootstrap: any;
 

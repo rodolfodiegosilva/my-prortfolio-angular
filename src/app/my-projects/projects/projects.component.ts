@@ -3,7 +3,7 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { selectLanguage } from '../language.selectors';
+import { selectLanguage } from '../../language.selectors';
 import { ProjectModalComponent } from '../project-modal/project-modal.component';
 declare var bootstrap: any;
 
