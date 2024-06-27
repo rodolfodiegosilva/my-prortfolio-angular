@@ -13,6 +13,7 @@ import { GithubDashboardComponent } from './github-dashboard/github-dashboard.co
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { ProfessionalExperiencesComponent } from './rofessional-experiences/professional-experiences.component';
 
 @Component({
   selector: 'app-root',
@@ -27,6 +28,7 @@ import { TranslateModule } from '@ngx-translate/core';
     GithubDashboardComponent,
     NavbarComponent,
     FooterComponent,
+    ProfessionalExperiencesComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
