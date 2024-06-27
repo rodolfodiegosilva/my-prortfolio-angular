@@ -1,0 +1,26 @@
+<div class="professional-experiences-section">
+  <h2>{{ "professionalExperiences.title" | translate }}</h2>
+  <div class="experience-cards-container">
+    <mat-card
+      *ngFor="let experience of experiences"
+      class="experience-card"
+      (click)="openModal(experience)"
+    >
+      <mat-card-header>
+        <mat-card-title>{{ experience.position }}</mat-card-title>
+        <mat-card-subtitle
+          >{{ experience.company }} - {{ experience.period }}</mat-card-subtitle
+        >
+      </mat-card-header>
+      <mat-card-actions>
+        <button mat-button>
+          {{ "professionalExperiences.view_details" | translate }}
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+
+<app-professional-experience-modal
+  [experience]="selectedExperience"
+></app-professional-experience-modal>
