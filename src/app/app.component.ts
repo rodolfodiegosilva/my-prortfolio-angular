@@ -8,12 +8,12 @@ import { PersonalDataComponent } from './personal-data/personal-data.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsComponent } from './my-projects/projects/projects.component';
 import { GithubDashboardComponent } from './github-dashboard/github-dashboard.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { TranslateModule } from '@ngx-translate/core';
-import { ProfessionalExperiencesComponent } from './rofessional-experiences/professional-experiences.component';
+import { ProfessionalExperiencesComponent } from './my-experiences/professional-experiences/professional-experiences.component';
 
 @Component({
   selector: 'app-root',
