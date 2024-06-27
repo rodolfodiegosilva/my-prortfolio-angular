@@ -7,7 +7,7 @@
 }
 
 .skills-content {
-  max-width: 1200px; /* Aumentei a largura máxima para ocupar mais espaço */
+  max-width: 95%; /* Aumentei a largura máxima para ocupar mais espaço */
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 5px;
-  flex: 1 1 calc(33.333% - 40px); /* Ajuste para caber três caixas por linha */
+  flex: 1 1 calc(20% - 40px); /* Ajuste para caber cinco caixas por linha */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
@@ -57,19 +57,19 @@
   transition: width 0.5s;
 }
 
-.progress-bar.Iniciante {
-  width: 33.33%;
-  background-color: #ff9800; /* Cor para Iniciante */
+.progress-bar.Advanced {
+  width: 100%;
+  background-color: #2196f3; /* Cor para Avançado */
 }
 
-.progress-bar.Intermediário {
+.progress-bar.Intermediate {
   width: 66.66%;
   background-color: #4caf50; /* Cor para Intermediário */
 }
 
-.progress-bar.Avançado {
-  width: 100%;
-  background-color: #2196f3; /* Cor para Avançado */
+.progress-bar.Beginner {
+  width: 33.33%;
+  background-color: #ff9800; /* Cor para Iniciante */
 }
 
 .skill-level {
@@ -88,6 +88,12 @@
   .skill {
     width: 80%;
     margin: 10px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .skill {
+    flex: 1 1 calc(33.333% - 40px); /* Ajuste para caber três caixas por linha em telas menores */
   }
 }
 
