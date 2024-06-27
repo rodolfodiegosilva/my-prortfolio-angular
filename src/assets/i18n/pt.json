@@ -5,7 +5,8 @@
     "skills": "Habilidades",
     "education": "Formação Acadêmica",
     "projects": "Projetos",
-    "github_dashboard": "GitHub Dashboard"
+    "github_dashboard": "GitHub Dashboard",
+    "professional_experiences": "Experiências Profissionais"
   },
   "personal_data": {
     "name": "Rodolfo Silva",
@@ -23,34 +24,104 @@
     "list": [
       {
         "name": "JavaScript",
-        "description": "Experiência em JavaScript para desenvolvimento frontend e backend.",
-        "level": "Avançado"
+        "description": "Habilidade em JavaScript para desenvolvimento frontend e backend.",
+        "level": "Advanced"
       },
       {
         "name": "Angular",
         "description": "Desenvolveu múltiplas aplicações usando o framework Angular.",
-        "level": "Avançado"
+        "level": "Advanced"
       },
       {
         "name": "TypeScript",
         "description": "Experiência em usar TypeScript para aplicações de grande escala.",
-        "level": "Intermediário"
+        "level": "Intermediate"
       },
       {
         "name": "HTML & CSS",
-        "description": "Proficiência em HTML e CSS para desenvolvimento web.",
-        "level": "Avançado"
+        "description": "Proficiente em HTML e CSS para desenvolvimento web.",
+        "level": "Advanced"
       },
       {
         "name": "Python",
         "description": "Experiência em Python para scripting e desenvolvimento web.",
-        "level": "Intermediário"
+        "level": "Intermediate"
+      },
+      {
+        "name": "React",
+        "description": "Experiência em construir interfaces complexas usando React.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "NodeJS",
+        "description": "Desenvolveu serviços backend usando NodeJS.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Cypress",
+        "description": "Habilidade em usar Cypress para testes end-to-end.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "SpringBoot",
+        "description": "Desenvolveu APIs REST usando SpringBoot.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Java",
+        "description": "Proficiente em Java para desenvolvimento backend.",
+        "level": "Advanced"
+      },
+      {
+        "name": "Laravel",
+        "description": "Experiência em construir aplicações web usando Laravel.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "PHP",
+        "description": "Desenvolveu lógica de servidor usando PHP.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "MySQL",
+        "description": "Gerenciou bancos de dados usando MySQL.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "PostgreSQL",
+        "description": "Habilidade em PostgreSQL para gerenciamento de banco de dados.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "SQL",
+        "description": "Proficiente em escrever queries SQL.",
+        "level": "Advanced"
+      },
+      {
+        "name": "MongoDB",
+        "description": "Experiência com MongoDB para gerenciamento de banco de dados NoSQL.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Linux",
+        "description": "Confortável em usar Linux para desenvolvimento e implantação.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Docker",
+        "description": "Habilidade em usar Docker para containerização.",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Git",
+        "description": "Experiência em controle de versão usando Git.",
+        "level": "Advanced"
       }
     ],
     "levels": {
-      "Avançado": "Avançado",
-      "Intermediário": "Intermediário",
-      "Iniciante": "Iniciante"
+      "Advanced": "Avançado",
+      "Intermediate": "Intermediário",
+      "Beginner": "Iniciante"
     }
   },
   "education": {
@@ -139,12 +210,119 @@
   },
   "footer": {
     "about": "Sobre",
-    "about_description": "Informações sobre a empresa ou o autor do site.",
+    "about_description": "Diego Seven Sistemas é especializada em desenvolvimento de software, web e mobile, entregando soluções inovadoras para as necessidades do seu negócio.",
+    "location": "Localização",
+    "location_description": "Manaus, Amazonas, Brasil",
     "links": "Links",
     "home": "Início",
     "projects": "Projetos",
     "contact": "Contato",
-    "social": "Redes Sociais",
-    "rights": "Todos os direitos reservados."
+    "social": "Social",
+    "rights": "Todos os direitos reservados.",
+    "contact_email": "exemplo@exemplo.com",
+    "github_link": "https://github.com/rodolfodiegosilva",
+    "linkedin_link": "https://www.linkedin.com/in/eng-rodolfo-diego/",
+    "twitter_link": "https://x.com/DiegoSeven_mcfc",
+    "instagram_link": "https://www.instagram.com/rodolfodiegogomes"
+  },
+  "professionalExperiences": {
+    "title": "Experiências Profissionais",
+    "view_details": "Ver Detalhes",
+    "close": "Fechar",
+    "experiences": [
+      {
+        "position": "Desenvolvedor Full Stack",
+        "company": "CI&T Software",
+        "period": "Janeiro 2024 — Atualmente",
+        "responsibilities": [
+          "Projeto e desenvolvo aplicações utilizando a metodologia Agile Scrum, utilizando ferramentas Atlassian como Jira e Confluence, dividindo o projeto em várias sprints.",
+          "Uso Bitbucket para controle de versão colaborando com outros desenvolvedores usando pull requests.",
+          "Bamboo e Nexus são usados para integração contínua de builds.",
+          "Projeto e desenvolvo aplicações web usando HTML, CSS, SASS, JavaScript, Angular e NodeJS.",
+          "Responsável pelo estilo, aparência e comportamento da página web com SASS que estende CSS com comportamento dinâmico como variáveis, mixagem, operações e funções.",
+          "Uso diretivas personalizadas Angular e desenvolvo componentes e modelos reutilizáveis que puderam ser reutilizados em vários locais do aplicativo.",
+          "Desenvolvo componentes e serviços Typescript reutilizáveis para consumir APIs REST usando arquitetura baseada em componentes fornecida por Angular.",
+          "Desenvolvo novos endpoints em SpringBoot que forneceram dados JSON para o aplicativo web Angular.",
+          "Implementei HTTP requests usando a biblioteca Observable RxJS para lidar com vários tipos de valores.",
+          "Tive experiência em trabalhar com JavaScript avançado como ECMAScript 6 (ES6).",
+          "Desenvolvo testes unitários para todas as classes que foram criadas usando Jest Framework, JUnit e Mockito no ambiente TDD.",
+          "Desenvolvi APIs para interagir com o banco de dados utilizando Spring Boot. Trabalhei extensivamente com Spring JDBC, Spring Hibernate ORM e JPA.",
+          "Uso Swagger para documentar todas as APIs de serviço, documentando corpo da solicitação, cabeçalho e detalhes de resposta."
+        ],
+        "environment": "Angular, JavaScript, Typescript, npm, NodeJs, Spring Boot, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Bamboo, Nexus, Bitbucket e Git Bash"
+      },
+      {
+        "position": "Desenvolvedor Full Stack",
+        "company": "Sidia Instituto de Ciência e Tecnologia",
+        "period": "Novembro 2021 — Outubro 2023",
+        "responsibilities": [
+          "Projetei e desenvolvi aplicações utilizando a metodologia Agile Scrum, utilizando ferramentas Atlassian como Jira e Confluence, dividindo o projeto em várias sprints.",
+          "Usei Git para controle de versão colaborando com outros desenvolvedores usando pull requests.",
+          "Jenkins e JFrog foram usados para integração contínua de builds.",
+          "Projetei e desenvolvi a aplicação web usando HTML, CSS, SASS, Bootstrap, JavaScript, React, Angular e NodeJS.",
+          "Responsável pelo estilo, aparência e comportamento da página web com SASS que estende CSS com comportamento dinâmico como variáveis, mixagem, operações e funções.",
+          "Usei diretivas personalizadas Angular e React e desenvolvi componentes e modelos reutilizáveis que puderam ser reutilizados em vários locais do aplicativo.",
+          "Desenvolvi componentes e serviços Typescript reutilizáveis para consumir APIs REST usando arquitetura baseada em componentes fornecida por Angular e React.",
+          "Desenvolvi novos endpoints em SpringBoot que forneceram dados JSON para o aplicativo web Angular e React.",
+          "Implementei HTTP requests usando a biblioteca Observable RxJS para lidar com vários tipos de valores.",
+          "Tive experiência em trabalhar com JavaScript avançado como ECMAScript 6 (ES6).",
+          "Desenvolvi testes unitários para todas as classes que foram criadas usando Jest Framework, JUnit e Mockito no ambiente TDD.",
+          "Desenvolvi APIs para interagir com o banco de dados utilizando Spring Boot. Trabalhei extensivamente com Spring JDBC, Spring Hibernate ORM e JPA.",
+          "Desenvolvi projetos de jobs em Spring Batch que consumiam APIs externas que interagiam e recebiam dados do RabbitMQ.",
+          "Usei Swagger para documentar todas as APIs de serviço, documentando corpo da solicitação, cabeçalho e detalhes de resposta."
+        ],
+        "environment": "Angular, React, JavaScript, Typescript, npm, NodeJs, Spring Boot, Spring Batch, RabbitMQ, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Jenkins, JFrog, GitHub e Git Bash"
+      },
+      {
+        "position": "Desenvolvedor Full Stack Junior",
+        "company": "Groupe MM - Mercadomóveis",
+        "period": "Agosto 2021 — Novembro 2021",
+        "responsibilities": [
+          "Projetei e desenvolvi aplicações utilizando a metodologia Agile Scrum, utilizando ferramentas Atlassian como Jira e Confluence, dividindo o projeto em várias sprints.",
+          "Projetei e desenvolvi a aplicação web usando HTML, CSS, SASS, Bootstrap, JavaScript, React, Angular e NodeJS.",
+          "Envolvido no uso do GIT para gerenciamento de versões e fluxos de trabalho associados a branchs e merges.",
+          "Responsável pelo estilo, aparência e comportamento da página web com SASS que estende CSS com comportamento dinâmico como variáveis, mixagem, operações e funções.",
+          "Usei várias diretivas personalizadas Angular e React e desenvolvi componentes e modelos reutilizáveis que puderam ser reutilizados em vários locais do aplicativo.",
+          "Criei componentes e serviços Typescript reutilizáveis para consumir APIs REST usando arquitetura baseada em componentes fornecida por Angular e React.",
+          "Desenvolvi novos endpoints de serviços de web que fornecem dados JSON para o aplicativo web Angular.",
+          "Implementei HTTP requests usando a biblioteca Observable RxJS para lidar com vários tipos de valores.",
+          "Tive experiência em trabalhar com JavaScript avançado como ECMAScript 6 (ES6).",
+          "Realizei testes unitários após escrever o código usando Jest Framework e envolvido no ambiente TDD."
+        ],
+        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, PostgreSQL, GitHub e Git Bash"
+      },
+      {
+        "position": "Desenvolvedor Full Stack Junior",
+        "company": "Silva Ramos Sistemas",
+        "period": "Dezembro 2020 — Novembro 2021",
+        "responsibilities": [
+          "Projetei e desenvolvi a aplicação web usando HTML, CSS, SASS, Bootstrap, JavaScript, Angular e NodeJS.",
+          "Envolvido no uso do GIT para gerenciamento de versões e fluxos de trabalho associados a branchs e merges.",
+          "Responsável pelo estilo, aparência e comportamento da página web com SASS que estende CSS com comportamento dinâmico como variáveis, mixagem, operações e funções.",
+          "Usei várias diretivas personalizadas Angular e desenvolvi componentes e modelos reutilizáveis que puderam ser reutilizados em vários locais do aplicativo.",
+          "Criei componentes e serviços Typescript reutilizáveis para consumir APIs REST usando arquitetura baseada em componentes fornecida por Angular.",
+          "Desenvolvi novos endpoints de serviços de web que fornecem dados JSON para o aplicativo web Angular.",
+          "Implementei HTTP requests usando a biblioteca Observable RxJS para lidar com vários tipos de valores.",
+          "Tive experiência em trabalhar com JavaScript avançado como ECMAScript 6 (ES6)."
+        ],
+        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, Bitbucket e Git Bash"
+      },
+      {
+        "position": "Desenvolvedor Full Stack Junior",
+        "company": "Instituto Xavier Serviços em T.I.",
+        "period": "Junho 2020 — Dezembro 2020",
+        "responsibilities": [
+          "Projetei e desenvolvi a aplicação web usando HTML, CSS, SASS, Bootstrap, JavaScript, Angular e NodeJS.",
+          "Envolvido no uso do GIT para gerenciamento de versões e fluxos de trabalho associados a branchs e merges.",
+          "Responsável pelo estilo, aparência e comportamento da página web com SASS que estende CSS com comportamento dinâmico como variáveis, mixagem, operações e funções.",
+          "Usei várias diretivas personalizadas Angular e desenvolvi componentes e modelos reutilizáveis que puderam ser reutilizados em vários locais do aplicativo.",
+          "Criei componentes e serviços Typescript reutilizáveis para consumir APIs REST usando arquitetura baseada em componentes fornecida por Angular.",
+          "Desenvolvi novos endpoints de serviços de web que fornecem dados JSON para o aplicativo web Angular.",
+          "Implementei HTTP requests usando a biblioteca Observable RxJS para lidar com vários tipos de valores.",
+          "Tive experiência em trabalhar com JavaScript avançado como ECMAScript 6 (ES6)."
+        ],
+        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, GitLab e Git Bash"
+      }
+    ]
   }
 }

@@ -4,22 +4,19 @@
       <div class="col-12 col-md-4 mb-4 mb-md-0">
         <h5 class="text-uppercase">{{ "footer.about" | translate }}</h5>
         <p>{{ "footer.about_description" | translate }}</p>
+        <p>{{ "footer.location_description" | translate }}</p>
       </div>
       <div class="col-12 col-md-4 mb-4 mb-md-0">
         <h5 class="text-uppercase">{{ "footer.links" | translate }}</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="#!" class="text-white">{{ "footer.home" | translate }}</a>
+            <a class="text-white" (click)="scrollToSection('personal-data')">{{ "footer.home" | translate }}</a>
           </li>
           <li>
-            <a href="#!" class="text-white">{{
-              "footer.projects" | translate
-            }}</a>
+            <a class="text-white" (click)="scrollToSection('projects')">{{ "footer.projects" | translate }}</a>
           </li>
           <li>
-            <a href="#!" class="text-white">{{
-              "footer.contact" | translate
-            }}</a>
+            <a href="mailto:{{ 'footer.contact_email' | translate }}" class="text-white">{{ "footer.contact" | translate }}</a>
           </li>
         </ul>
       </div>
@@ -27,19 +24,24 @@
         <h5 class="text-uppercase">{{ "footer.social" | translate }}</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="https://github.com/rodolfodiegosilva" class="text-white"
-              ><i class="fab fa-github"></i> GitHub</a
-            >
+            <a href="{{ 'footer.github_link' | translate }}" class="text-white">
+              <i class="fab fa-github"></i> GitHub
+            </a>
           </li>
           <li>
-            <a href="#!" class="text-white"
-              ><i class="fab fa-linkedin"></i> LinkedIn</a
-            >
+            <a href="{{ 'footer.linkedin_link' | translate }}" class="text-white">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
           </li>
           <li>
-            <a href="#!" class="text-white"
-              ><i class="fab fa-twitter"></i> Twitter</a
-            >
+            <a href="{{ 'footer.twitter_link' | translate }}" class="text-white">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+          </li>
+          <li>
+            <a href="{{ 'footer.instagram_link' | translate }}" class="text-white">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
           </li>
         </ul>
       </div>

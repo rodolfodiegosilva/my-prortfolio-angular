@@ -9,4 +9,11 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [CommonModule, TranslateModule],
 })
-export class FooterComponent {}
+export class FooterComponent {
+  scrollToSection(section: string) {
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+}
