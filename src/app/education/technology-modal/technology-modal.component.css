@@ -1,0 +1,60 @@
+/* Modal Styles */
+.modal-header {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .modal-title {
+    font-size: 1.5em;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px; /* Ajustar o padding para diminuir a altura */
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%; /* Ajustar a largura para ter 3 itens por linha */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .course-item h5 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .course-item p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .course-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .course-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .course-item {
+      width: 45%; /* Ajustar a largura para ter 2 itens por linha em telas menores */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .course-item {
+      width: 100%; /* Ajustar a largura para ter 1 item por linha em telas muito pequenas */
+    }
+  }
+  

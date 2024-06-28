@@ -1,0 +1,45 @@
+<div
+  class="modal fade"
+  id="technologyModal"
+  tabindex="-1"
+  aria-labelledby="technologyModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="technologyModalLabel">
+          {{ technology?.name }}
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" *ngIf="technology">
+        <div class="course-list">
+          <div class="course-item" *ngFor="let course of technology.courses">
+            <h5>{{ course.name }}</h5>
+            <p>{{ course.provider }}</p>
+            <p>{{ "Issued" | translate }}: {{ course.issued }}</p>
+            <p *ngIf="course.credentialUrl">
+              <a [href]="course.credentialUrl" target="_blank">
+                {{ "Show credential" | translate }}
+              </a>
+            </p>
+            <p>
+              {{ "Skills" | translate }}: {{ course.skills.join(", ") }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal()">
+          {{ "education.close" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

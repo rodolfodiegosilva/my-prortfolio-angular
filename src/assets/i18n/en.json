@@ -126,18 +126,258 @@
   },
   "education": {
     "title": "Education",
-    "list": [
+    "view_details": "View Details",
+    "close": "Close",
+    "degrees": [
       {
-        "degree": "Bachelor of Science in Computer Science",
-        "institution": "University of XYZ",
-        "year": "2010 - 2014"
-      },
-      {
-        "degree": "Master of Science in Software Engineering",
-        "institution": "University of ABC",
-        "year": "2015 - 2017"
+        "degree": "Bachelor of Engineering in Computer Engineering",
+        "institution": "Instituto de Ensino Superior FUCAPI",
+        "year": "2012 - 2019",
+        "description": "The course trained me to operate in a growing local technology market that demands integrated knowledge of electronic and computer engineering. It aimed to equip me with skills to specify, design, develop, maintain, and manage computer systems (hardware and software) applied to the local context."
       }
-    ]
+    ],
+    "certifications": {
+      "title": "Licenses & Certifications",
+      "technologies": [
+        {
+          "name": "Kubernetes",
+          "courses": [
+            {
+              "name": "Learning Kubernetes",
+              "provider": "LinkedIn",
+              "issued": "Sep 2023",
+              "credentialUrl": "https://www.linkedin.com/learning/",
+              "skills": ["Kubernetes"]
+            }
+          ]
+        },
+        {
+          "name": "CSS",
+          "courses": [
+            {
+              "name": "CSS Essential Training (2019)",
+              "provider": "LinkedIn",
+              "issued": "Aug 2023",
+              "credentialUrl": "https://www.linkedin.com/learning/",
+              "skills": ["CSS"]
+            }
+          ]
+        },
+        {
+          "name": "DevOps",
+          "courses": [
+            {
+              "name": "DevOps Foundations: Continuous Delivery/Continuous Integration",
+              "provider": "LinkedIn",
+              "issued": "Aug 2023",
+              "credentialUrl": "https://www.linkedin.com/learning/",
+              "skills": ["CI/CD", "DevOps"]
+            },
+            {
+              "name": "DevOps Foundations",
+              "provider": "LinkedIn",
+              "issued": "Jul 2023",
+              "credentialUrl": "https://www.linkedin.com/learning/",
+              "skills": ["DevOps"]
+            }
+          ]
+        },
+        {
+          "name": "Elastic Stack",
+          "courses": [
+            {
+              "name": "Learning the Elastic Stack",
+              "provider": "LinkedIn",
+              "issued": "Aug 2023",
+              "credentialUrl": "https://www.linkedin.com/learning/",
+              "skills": ["Elastic Stack"]
+            }
+          ]
+        },
+        {
+          "name": "Angular",
+          "courses": [
+            {
+              "name": "Modern Web Course Complete with JavaScript",
+              "provider": "Udemy Brasil",
+              "issued": "Dec 2021",
+              "credentialUrl": "https://www.udemy.com/",
+              "skills": ["Angular"]
+            },
+            {
+              "name": "NodeJS and MongoDB Developer Course",
+              "provider": "Udemy Brasil",
+              "issued": "Dec 2021",
+              "credentialUrl": "https://www.udemy.com/",
+              "skills": ["Angular"]
+            },
+            {
+              "name": "WEB Development Course with ES6, TypeScript and Angular",
+              "provider": "Udemy Brasil",
+              "issued": "Dec 2021",
+              "credentialUrl": "https://www.udemy.com/",
+              "skills": ["Angular"]
+            },
+            {
+              "name": "Angular Web Development",
+              "provider": "Udemy Brasil",
+              "issued": "Jan 2021",
+              "credentialUrl": "https://www.udemy.com/",
+              "skills": ["Angular"]
+            }
+          ]
+        },
+        {
+          "name": "PostgreSQL",
+          "courses": [
+            {
+              "name": "SQL training with PostgreSQL",
+              "provider": "Alura",
+              "issued": "Oct 2021",
+              "credentialUrl": "https://www.alura.com.br/",
+              "skills": ["PostgreSQL"]
+            }
+          ]
+        },
+        {
+          "name": "Java",
+          "courses": [
+            {
+              "name": "Introduction to the Spring Boot Framework",
+              "provider": "DIO",
+              "issued": "Sep 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Spring Boot"]
+            },
+            {
+              "name": "Java- Working with Collections",
+              "provider": "DIO",
+              "issued": "Sep 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Java"]
+            },
+            {
+              "name": "Working with Bank Data using JDBC and JPA",
+              "provider": "DIO",
+              "issued": "Sep 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["JDBC", "JPA"]
+            },
+            {
+              "name": "Advanced Java Development",
+              "provider": "DIO",
+              "issued": "Aug 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Java"]
+            },
+            {
+              "name": "Basic Java Development",
+              "provider": "DIO",
+              "issued": "Aug 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Java"]
+            },
+            {
+              "name": "Introduction to Git and GitHub",
+              "provider": "DIO",
+              "issued": "Aug 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Git", "GitHub"]
+            },
+            {
+              "name": "Introduction to object orientation with java",
+              "provider": "DIO",
+              "issued": "Aug 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Java"]
+            },
+            {
+              "name": "Java data structure",
+              "provider": "DIO",
+              "issued": "Aug 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Java"]
+            },
+            {
+              "name": "Mastering Java IDEs",
+              "provider": "DIO",
+              "issued": "Aug 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["Java"]
+            },
+            {
+              "name": "Working with Branches on Github",
+              "provider": "DIO",
+              "issued": "Aug 2021",
+              "credentialUrl": "https://www.dio.me/",
+              "skills": ["GitHub"]
+            }
+          ]
+        },
+        {
+          "name": "Web Development",
+          "courses": [
+            {
+              "name": "Complete Web Development Course",
+              "provider": "Udemy Brasil",
+              "issued": "May 2021",
+              "credentialUrl": "https://www.udemy.com/",
+              "skills": ["Web Development"]
+            }
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "courses": [
+            {
+              "name": "Machine Learning and Data Science with Python",
+              "provider": "Udemy Brasil",
+              "issued": "May 2021",
+              "credentialUrl": "https://www.udemy.com/",
+              "skills": ["Machine Learning", "Data Science"]
+            }
+          ]
+        },
+        {
+          "name": "Scrum",
+          "courses": [
+            {
+              "name": "Scrum Foundations Professional Certificate SFPC",
+              "provider": "CertiProf",
+              "issued": "May 2021",
+              "credentialUrl": "https://www.certiprof.com/",
+              "skills": ["Scrum"]
+            }
+          ]
+        },
+        {
+          "name": "React",
+          "courses": [
+            {
+              "name": "Formação Gerencie aplicações React com Typescript",
+              "provider": "Alura",
+              "issued": "Jun 2023",
+              "credentialUrl": "https://www.alura.com.br/",
+              "skills": ["React.js"]
+            },
+            {
+              "name": "Formação React com TypeScript",
+              "provider": "Alura",
+              "issued": "Jun 2023",
+              "credentialUrl": "https://www.alura.com.br/",
+              "skills": ["React.js"]
+            },
+            {
+              "name": "Track React com TypeScript",
+              "provider": "Alura",
+              "issued": "Jun 2023",
+              "credentialUrl": "https://www.alura.com.br/",
+              "skills": ["TypeScript", "React.js"]
+            }
+          ]
+        }
+      ]
+    }
   },
   "projects": {
     "title": "My Projects",

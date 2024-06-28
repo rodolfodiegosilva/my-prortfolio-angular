@@ -14,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { ProfessionalExperiencesComponent } from './my-experiences/professional-experiences/professional-experiences.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -28,7 +29,8 @@ import { ProfessionalExperiencesComponent } from './my-experiences/professional-
     GithubDashboardComponent,
     NavbarComponent,
     FooterComponent,
-    ProfessionalExperiencesComponent
+    ProfessionalExperiencesComponent,
+    CommonModule
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
