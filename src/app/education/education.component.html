@@ -1,12 +1,44 @@
 <div class="education-section full-width">
   <div class="education-content">
-    <h3>{{ 'education.title' | translate }}</h3>
+    <h3>{{ "education.title" | translate }}</h3>
     <div class="education-list">
-      <div class="education-item" *ngFor="let edu of education">
-        <h4>{{ edu.degree }}</h4>
-        <p>{{ edu.institution }}</p>
-        <p>{{ edu.year }}</p>
-      </div>
+      <mat-card
+        *ngFor="let edu of education"
+        class="education-item"
+        (click)="openEducationModal(edu)"
+      >
+        <mat-card-header>
+          <mat-card-title>{{ edu.degree }}</mat-card-title>
+          <mat-card-subtitle>
+            {{ edu.institution }} - {{ edu.year }}
+          </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-actions>
+          <button mat-button>
+            {{ "education.view_details" | translate }}
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <h3>{{ "education.certifications.title" | translate }}</h3>
+    <div class="technology-list">
+      <mat-card
+        *ngFor="let tech of technologies"
+        class="technology-item"
+        (click)="openTechnologyModal(tech)"
+      >
+        <mat-card-header>
+          <mat-card-title>{{ tech.name }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-actions>
+          <button mat-button>
+            {{ "education.view_details" | translate }}
+          </button>
+        </mat-card-actions>
+      </mat-card>
     </div>
   </div>
 </div>
+
+<app-education-modal [education]="selectedEducation"></app-education-modal>
+<app-technology-modal [technology]="selectedTechnology"></app-technology-modal>

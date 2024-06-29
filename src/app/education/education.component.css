@@ -3,11 +3,11 @@
   color: #333; /* Cor do texto */
   text-align: center;
   padding: 50px 20px;
-  width: 95%;
+  width: 100%;
 }
 
 .education-content {
-  max-width: 800px;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -23,6 +23,12 @@
   justify-content: space-around;
 }
 
+.technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .education-item {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -34,26 +40,66 @@
   box-sizing: border-box;
 }
 
-.education-item h4 {
-  font-size: 1.5em;
+.technology-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px; /* Ajustar o padding para diminuir a altura */
+  margin: 10px;
+  border-radius: 5px;
+  width: 18%; /* Ajustar a largura para 18% para ter 5 itens por linha */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  max-height: 90px;
+}
+
+.education-item h4,
+.technology-item h4 {
+  font-size: 1.2em; /* Ajustar o tamanho da fonte */
   margin-bottom: 10px;
 }
 
-.education-item p {
+.education-item p,
+.technology-item p {
   font-size: 1em;
   color: #666;
 }
 
-/* Responsividade */
+.certifications-list {
+  margin-top: 20px;
+}
+
+.mat-mdc-card-header {
+  padding: 0 !important;
+}
+
+.mdc-card__actions {
+  padding: 0 !important;
+  max-height: 10px !important;
+  min-height: 10px !important;
+}
+
 @media (max-width: 768px) {
-  .education-list {
+  .education-list,
+  .technology-list {
     flex-direction: column;
     align-items: center;
   }
 
   .education-item {
-    width: 80%;
-    margin: 10px 0;
+    width: 100%;
+    margin: 0;
+  }
+  .technology-item {
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  .certifications-list .btn-block {
+    width: 100%;
+  }
+
+  .course-item {
+    width: 100%;
   }
 }
 
@@ -63,14 +109,21 @@
   }
 
   .education-content h3 {
-    font-size: 1.8em;
+    margin: 10px 9px;
+    font-size: 1.4em;
   }
 
-  .education-item h4 {
+  .education-item h4,
+  .technology-item h4 {
     font-size: 1.3em;
   }
 
-  .education-item p {
+  .education-item p,
+  .technology-item p {
     font-size: 0.9em;
+  }
+
+  .course-item {
+    width: 100%;
   }
 }

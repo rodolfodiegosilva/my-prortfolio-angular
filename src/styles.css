@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+.mat-mdc-card-header {
+    display: flex;
+    padding: 16px 16px 0;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+    .section{
+        padding: 0px !important;
+    }
+    main{
+        padding: 30px 0px !important;
+    }
+}
