@@ -10,10 +10,9 @@
   },
   "personal_data": {
     "name": "Rodolfo Silva",
+    "img_profile":"https://my-portifolio-images.s3.us-east-2.amazonaws.com/profile.jpeg",
     "profession": "Software Engineer, Full-stack Developer & Systems Analyst",
-    "description": "I create and develop elegantly simple solutions, driven by my passion for crafting beautiful and functional designs.",
-    "about_title": "Hi, I'm Rodolfo Silva. Thank you for visiting my site.",
-    "about_description": "Experienced Web Developer adept in all stages of web development. Knowledgeable in user interface, testing, and maintenance of web systems. Equipped with a diverse and promising skill set. Proficient in a variety of technologies including Java, SpringBoot, JavaScript, TypeScript, Angular, React, MongoDB, and MySQL. Capable of effectively self-managing during independent projects, as well as collaborating in a team."
+    "description": "I create and develop elegantly simple solutions, driven by my passion for crafting beautiful and functional designs."
   },
   "profile": {
     "about_title": "Hi, I'm Rodolfo Silva. Thank you for visiting my site.",
