@@ -1,16 +1,11 @@
-import {
-  Component,
-  OnInit,
-  ChangeDetectorRef,
-  HostListener,
-} from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef, HostListener } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { selectLanguage } from '../language.selectors';
-import { environment } from '../../environments/environment'; // Importar o ambiente
+import { environment } from '../../environments/environment';
 
 interface Repository {
   name: string;
@@ -40,11 +35,11 @@ export class GithubDashboardComponent implements OnInit {
   repositories: Repository[] = [];
   activities: Activity[] = [];
   allRepositories: Repository[] = [];
-  username: string = 'rodolfodiegosilva'; // Substitua pelo seu nome de usuário do GitHub
+  username: string = 'rodolfodiegosilva';
   language$: Observable<string>;
 
-  // Utilizar o token do ambiente
-  private readonly GITHUB_TOKEN = environment.githubToken;
+  // Utilize o token do ambiente
+  private readonly GITHUB_TOKEN = environment.GITHUB_TOKEN;
 
   constructor(
     private http: HttpClient,
@@ -99,7 +94,7 @@ export class GithubDashboardComponent implements OnInit {
               openIssues: repo.open_issues_count,
               html_url: repo.html_url,
               description: repo.description,
-              updated_at: repo.updated_at, // Adicionar data de atualização
+              updated_at: repo.updated_at,
             }));
 
           // Ajustar o número de repositórios exibidos com base na largura da tela

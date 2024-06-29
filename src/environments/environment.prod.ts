@@ -1,5 +1,4 @@
 export const environment = {
-    production: true,
-    githubToken: 'YOUR_PERSONAL_ACCESS_TOKEN'
-  };
-  
+  production: true,
+  GITHUB_TOKEN: '' // Este valor será substituído durante o build
+};

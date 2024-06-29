@@ -8,9 +8,10 @@ frontend:
         - npm install --legacy-peer-deps
         - npm install @ngrx/store @ngrx/effects --legacy-peer-deps
         - npm ci --legacy-peer-deps
+        - sed -i '$i'"GITHUB_TOKEN:\"$GITHUB_TOKEN\"," src/environments/environment.prod.ts
     build:
       commands:
-        - npm run build
+        - npm run build -- --configuration production
   artifacts:
     baseDirectory: dist/portfolio/browser
     files:
