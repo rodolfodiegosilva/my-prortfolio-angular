@@ -1,6 +1,6 @@
 .education-section {
-  background-color: #5d869a; /* Fundo azul claro */
-  color: #333; /* Cor do texto */
+  background-color: #5d869a;
+  color: #333;
   text-align: center;
   padding: 50px 20px;
   width: 100%;
@@ -43,10 +43,10 @@
 .technology-item {
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: 10px; /* Ajustar o padding para diminuir a altura */
+  padding: 10px;
   margin: 10px;
   border-radius: 5px;
-  width: 18%; /* Ajustar a largura para 18% para ter 5 itens por linha */
+  width: 18%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   max-height: 90px;
@@ -54,7 +54,7 @@
 
 .education-item h4,
 .technology-item h4 {
-  font-size: 1.2em; /* Ajustar o tamanho da fonte */
+  font-size: 1.2em;
   margin-bottom: 10px;
 }
 
@@ -104,6 +104,9 @@
 }
 
 @media (max-width: 480px) {
+  .mat-mdc-card-title {
+font-size: 20px;
+}
   .education-section {
     padding: 30px 10px;
   }

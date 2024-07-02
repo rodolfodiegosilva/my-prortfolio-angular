@@ -1,50 +1,44 @@
 .skills-section {
-  background-color: #5d869a; /* Fundo cinza claro */
-  color: #333; /* Cor do texto */
+  background-color: #5d869a;
+  color: #333;
   text-align: center;
   padding: 50px 20px;
   width: 100%;
 }
 
 .skills-content {
-  max-width: 95%; /* Aumentei a largura máxima para ocupar mais espaço */
+  max-width: 95%;
   margin: 0 auto;
 }
-
 .skills-content h3 {
   color: white;
   font-size: 2em;
   margin-bottom: 20px;
 }
-
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Alinhamento ajustado */
-  gap: 20px; /* Adicionado espaçamento entre as habilidades */
+  justify-content: space-between;
+  gap: 20px;
 }
-
 .skill {
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: 20px;
+  padding: 5px;
   border-radius: 5px;
-  flex: 1 1 calc(20% - 40px); /* Ajuste para caber cinco caixas por linha */
+  flex: 1 1 calc(20% - 40px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
-
 .skill h4 {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 0px;
 }
-
 .skill p {
-  font-size: 1em;
+  font-size: .8em;
   margin-bottom: 0px;
   color: #666;
 }
-
 .progress-bar-container {
   background-color: #eee;
   border-radius: 5px;
@@ -52,34 +46,28 @@
   height: 10px;
   margin-top: 10px;
 }
-
 .progress-bar {
   height: 100%;
   transition: width 0.5s;
 }
-
 .progress-bar.Advanced {
   width: 100%;
-  background-color: #2196f3; /* Cor para Avançado */
+  background-color: #2196f3;
 }
-
 .progress-bar.Intermediate {
   width: 66.66%;
-  background-color: #4caf50; /* Cor para Intermediário */
+  background-color: #4caf50;
 }
-
 .progress-bar.Beginner {
   width: 33.33%;
-  background-color: #ff9800; /* Cor para Iniciante */
+  background-color: #ff9800;
 }
-
 .skill-level {
   margin-top: 0px;
   font-size: 0.9em;
   color: #282626;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .skills-list {
     flex-direction: column;
@@ -88,13 +76,16 @@
   .skill {
     width: 100% !important;
     margin: 0 !important;
-    padding: 5% !important;
+    padding: 1px !important;
   }
   .skills-content {
     max-width: 100% !important;
   }
   .skill h4 {
-    font-size: 1.2em;
+    font-size: .9em;
     margin-bottom: 0px;
+  }
+  .skill p {
+    font-size: .7em;
   }
 }

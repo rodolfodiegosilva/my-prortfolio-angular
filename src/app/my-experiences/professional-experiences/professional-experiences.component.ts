@@ -10,6 +10,15 @@ import { selectLanguage } from '../../language.selectors';
 
 declare var bootstrap: any;
 
+interface Experience {
+  position: string;
+  company: string;
+  period: string;
+  responsibilities: string[];
+  stacks: string;
+}
+
+
 @Component({
   selector: 'app-professional-experiences',
   standalone: true,
@@ -19,7 +28,7 @@ declare var bootstrap: any;
 })
 export class ProfessionalExperiencesComponent implements OnInit {
   language$: Observable<string>;
-  experiences: any[] = [];
+  experiences: Experience[] = [];
   selectedExperience?: any;
   experienceModal: any;
 
@@ -41,14 +50,17 @@ export class ProfessionalExperiencesComponent implements OnInit {
 
   loadExperiences() {
     this.translate.get('professionalExperiences.experiences').subscribe((res: any[]) => {
+     console.log(res);
+     
       this.experiences = res.map((experience: any) => ({
         position: experience.position,
         company: experience.company,
         period: experience.period,
         responsibilities: experience.responsibilities,
-        environment: experience.environment
+        stacks: experience.stacks
       }));
-    });
+    })
+    
   }
 
   openModal(experience: any) {

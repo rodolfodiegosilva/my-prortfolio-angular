@@ -46,16 +46,16 @@ input:checked + .slider .round {
 }
 
 .flag-icon-us {
-  width: 20px; /* Ajustar o tamanho da bandeira */
+  width: 20px;
   height: 20px;
   position: absolute;
-  top: 4px; /* Ajustar para alinhar verticalmente */
+  top: 4px;
   left: -24px;
 }
 .flag-icon-br {
-  width: 20px; /* Ajustar o tamanho da bandeira */
+  width: 20px;
   height: 20px;
   position: absolute;
-  top: 4px; /* Ajustar para alinhar verticalmente */
+  top: 4px;
   left: 30px;
 }

@@ -1,15 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
 .mat-mdc-card-header {
-    display: flex;
-    padding: 16px 16px 0;
-    justify-content: space-evenly;
+  display: flex;
+  padding: 16px 16px 0;
+  justify-content: space-evenly;
+}
+.mdc-card__actions {
+  justify-content: flex-end;
+}
+
+/* Modal style */
+.modal-title {
+  font-size: 1.5em;
+}
+.modal-header {
+  background-color: #54acd8;
+  color: #fff;
+}
+.btn-secondary {
+  background-color: #54acd8;
+  border-color: #54acd8;
+}
+.btn-secondary:hover {
+  background-color: #265f7b;
+  border-color: #265f7b;
+}
+.btn-close {
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #000;
+  opacity: 0.5;
+}
+.btn-close:hover {
+  color: #000;
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 @media (max-width: 768px) {
-    .section{
-        padding: 0px !important;
-    }
-    main{
-        padding: 30px 0px !important;
-    }
+  .modal-title {
+    font-size: 1.2em;
+  }
+  .section {
+    padding: 0px !important;
+  }
+  main {
+    padding: 30px 0px !important;
+  }
 }

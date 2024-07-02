@@ -6,11 +6,12 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" *ngIf="experience">
-          <h3>{{ experience.company }} - {{ experience.period }}</h3>
+          <h3>{{ experience.company }}</h3>
+          <h6>{{ experience.period }}</h6>
           <ul>
             <li *ngFor="let responsibility of experience.responsibilities">{{ responsibility }}</li>
           </ul>
-          <p><strong>{{ 'professionalExperiences.environment' | translate }}:</strong> {{ experience.environment }}</p>
+          <p><strong>{{ 'professionalExperiences.stacks' | translate }}:</strong> {{ experience.stacks }}</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{{ 'professionalExperiences.close' | translate }}</button>

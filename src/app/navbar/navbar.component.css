@@ -20,7 +20,7 @@ a {
   align-items: center;
   position: fixed;
   width: 100%;
-  background-color: #398eb9;
+  background-color: #54acd8;
   color: #efefef;
   z-index: 5;
   padding: 1rem;
@@ -84,7 +84,7 @@ a {
   color: inherit;
   text-decoration: none;
   width: 100%;
-  cursor: pointer; /* Adiciona a mãozinha ao passar o mouse */
+  cursor: pointer;
 }
 
 .nav__link:hover,
@@ -96,7 +96,6 @@ a {
   display: none;
 }
 
-/* ----- smaller screen sizes ----- */
 @media (max-width: 520px) {
   .toggle-container-responsive {
     display: inline;
