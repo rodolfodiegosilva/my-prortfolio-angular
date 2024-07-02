@@ -6,11 +6,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #f4f4f4;
-  overflow-x: hidden; /* Evitar o estouro horizontal */
+  overflow-x: hidden;
 }
 
 main {
-  padding-top: 70px; /* Altura da navbar para evitar sobreposição */
+  padding-top: 70px;
   flex: 1;
   max-width: 100%;
   margin: 0 auto;
@@ -23,45 +23,25 @@ main {
   margin: 20px 0;
   padding: 20px;
   border-radius: 5px;
-  background-color: #ffffff; /* Fundo branco */
+  background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 h2 {
-  border-bottom: 2px solid #003b46; /* Borda verde-azul escuro */
+  border-bottom: 2px solid #003b46;
   padding-bottom: 5px;
   color: #003b46;
 }
 
 .project-card {
-  border: 1px solid #004d61; /* Verde-azul mais claro */
+  border: 1px solid #004d61;
   padding: 10px;
   margin: 10px 0;
-  background-color: #e0f7fa; /* Fundo azul claro */
-  color: #003b46; /* Texto verde-azul escuro */
-}
-
-.hero {
-  /*  background: url('path_to_background_image.jpg') no-repeat center center/cover;*/
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 4rem;
-  margin: 0;
-}
-
-.hero-content h2 {
-  font-size: 2rem;
-  margin: 0;
+  background-color: #e0f7fa;
+  color: #003b46;
 }
 
 button {
-  background-color: #f57c00; /* Laranja */
+  background-color: #f57c00;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -71,11 +51,11 @@ button {
 }
 
 button:hover {
-  background-color: #ef6c00; /* Laranja mais escuro */
+  background-color: #ef6c00;
 }
 
 footer {
-  background-color: #003b46; /* Verde-azul escuro */
+  background-color: #003b46;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -83,17 +63,9 @@ footer {
   box-sizing: border-box;
 }
 #personal-data {
-  margin-top: 50px; /* Adiciona espaçamento extra ao topo da seção "personal-data" */
+  margin-top: 50px;
 }
 @media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 3rem;
-  }
-
-  .hero-content h2 {
-    font-size: 1.5rem;
-  }
-
   .section {
     margin: 10px;
     padding: 15px;
@@ -113,15 +85,5 @@ footer {
 
   nav ul.active {
     display: flex;
-  }
-}
-
-@media (max-width: 320px) {
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .hero-content h2 {
-    font-size: 1rem;
   }
 }

@@ -3,6 +3,13 @@ import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
 declare var bootstrap: any;
+interface Experience {
+  position: string;
+  company: string;
+  period: string;
+  responsibilities: string[];
+  stacks: string;
+}
 
 @Component({
   selector: 'app-professional-experience-modal',

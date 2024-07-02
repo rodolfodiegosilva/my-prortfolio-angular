@@ -1,6 +1,6 @@
 .personal-data-section {
-  background-color: #5d869a; /* Azul claro */
-  color: #333; /* Cor do texto */
+  background-color: #5d869a;
+  color: #333;
   text-align: center;
   padding: 50px 20px;
 }
@@ -8,7 +8,7 @@
 .personal-data-content {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #fff; /* Branco */
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@
 .personal-data-content h2 {
   font-size: 1.5em;
   margin: 10px 0;
-  color: #5d869a; /* Cor do texto azul */
+  color: #5d869a;
 }
 
 .personal-data-content p {
@@ -36,7 +36,6 @@
   margin: 20px 0 0;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .personal-data-content {
     padding: 15px;

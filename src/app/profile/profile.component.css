@@ -19,7 +19,7 @@
   font-size: 1.2em;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .profile-content {
     padding: 15px;

@@ -10,9 +10,9 @@
   },
   "personal_data": {
     "name": "Rodolfo Silva",
-    "img_profile":"https://my-portifolio-images.s3.us-east-2.amazonaws.com/profile.jpeg",
+    "img_profile": "https://my-portifolio-images.s3.us-east-2.amazonaws.com/profile.jpeg",
     "profession": "Software Engineer, Full-stack Developer & Systems Analyst",
-    "description": "I create and develop elegantly simple solutions, driven by my passion for crafting beautiful and functional designs."
+    "description": "I am driven by my passion for creating attractive and functional designs, developing solutions that are elegantly simple"
   },
   "profile": {
     "about_title": "Hi, I'm Rodolfo Silva. Thank you for visiting my site.",
@@ -129,8 +129,8 @@
     "close": "Close",
     "degrees": [
       {
-        "degree": "Bachelor of Engineering in Computer Engineering",
-        "institution": "Instituto de Ensino Superior FUCAPI",
+        "degree": "Bachelor in Computer Engineering",
+        "institution": "FUCAPI Institute of Higher Education",
         "year": "2012 - 2019",
         "description": "The course trained me to operate in a growing local technology market that demands integrated knowledge of electronic and computer engineering. It aimed to equip me with skills to specify, design, develop, maintain, and manage computer systems (hardware and software) applied to the local context."
       }
@@ -468,11 +468,12 @@
     "title": "Professional Experiences",
     "view_details": "View Details",
     "close": "Close",
+    "stacks": "stacks",
     "experiences": [
       {
         "position": "Full Stack Developer",
         "company": "CI&T Software",
-        "period": "January 2024 — Present",
+        "period": "Jan 2024 — Present",
         "responsibilities": [
           "Design and develop applications using Agile Scrum methodology, using Atlassian tools like Jira and Confluence, dividing the project into multiple sprints.",
           "Use Bitbucket for version control collaborating with other developers using pull requests.",
@@ -488,12 +489,12 @@
           "Develop APIs to interact with the database using Spring Boot. Worked extensively with Spring JDBC, Spring Hibernate ORM and JPA.",
           "Use Swagger to document all service APIs, documenting request body, header and response details."
         ],
-        "environment": "Angular, JavaScript, Typescript, npm, NodeJs, Spring Boot, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Bamboo, Nexus, Bitbucket and Git Bash"
+        "stacks": "Angular, JavaScript, Typescript, npm, NodeJs, Spring Boot, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Bamboo, Nexus, Bitbucket and Git Bash"
       },
       {
         "position": "Full Stack Developer",
         "company": "Sidia Instituto de Ciência e Tecnologia",
-        "period": "November 2021 — October 2023",
+        "period": "Nov 2021 — Oct 2023",
         "responsibilities": [
           "Design and develop applications using Agile Scrum methodology, using Atlassian tools like Jira and Confluence, dividing the project into multiple sprints.",
           "Use Git for version control collaborating with other developers using pull requests.",
@@ -510,12 +511,12 @@
           "Develop job projects in Spring Batch that consumed external APIs interacting and receiving data from RabbitMQ.",
           "Use Swagger to document all service APIs, documenting request body, header and response details."
         ],
-        "environment": "Angular, React, JavaScript, Typescript, npm, NodeJs, Spring Boot, Spring Batch, RabbitMQ, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Jenkins, JFrog, GitHub and Git Bash"
+        "stacks": "Angular, React, JavaScript, Typescript, npm, NodeJs, Spring Boot, Spring Batch, RabbitMQ, JUnit, Mockito, Java, MySQL, MongoDB, Linux, Docker, Jenkins, JFrog, GitHub and Git Bash"
       },
       {
         "position": "Junior Full Stack Developer",
         "company": "Groupe MM - Mercadomóveis",
-        "period": "August 2021 — November 2021",
+        "period": "Aug 2021 — Nov 2021",
         "responsibilities": [
           "Design and develop applications using Agile Scrum methodology, using Atlassian tools like Jira and Confluence, dividing the project into multiple sprints.",
           "Design and develop web applications using HTML, CSS, SASS, Bootstrap, JavaScript, React, Angular and NodeJS.",
@@ -528,12 +529,12 @@
           "Experienced working with advanced JavaScript like ECMAScript 6 (ES6).",
           "Performed unit tests after writing the code using Jest Framework and involved in TDD environment."
         ],
-        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, PostgreSQL, GitHub and Git Bash"
+        "stacks": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, PostgreSQL, GitHub and Git Bash"
       },
       {
         "position": "Junior Full Stack Developer",
         "company": "Silva Ramos Sistemas",
-        "period": "December 2020 — November 2021",
+        "period": "Dec 2020 — Nov 2021",
         "responsibilities": [
           "Design and develop web applications using HTML, CSS, SASS, Bootstrap, JavaScript, Angular and NodeJS.",
           "Involved in using GIT for version management and workflows associated with branching and merging.",
@@ -544,12 +545,12 @@
           "Implement HTTP requests using the Observable RxJS library to handle multiple types of values.",
           "Experienced working with advanced JavaScript like ECMAScript 6 (ES6)."
         ],
-        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, Bitbucket and Git Bash"
+        "stacks": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, Bitbucket and Git Bash"
       },
       {
         "position": "Junior Full Stack Developer",
         "company": "Instituto Xavier Serviços em T.I.",
-        "period": "June 2020 — December 2020",
+        "period": "Jun 2020 — Dec 2020",
         "responsibilities": [
           "Design and develop web applications using HTML, CSS, SASS, Bootstrap, JavaScript, Angular and NodeJS.",
           "Involved in using GIT for version management and workflows associated with branching and merging.",
@@ -560,7 +561,7 @@
           "Implement HTTP requests using the Observable RxJS library to handle multiple types of values.",
           "Experienced working with advanced JavaScript like ECMAScript 6 (ES6)."
         ],
-        "environment": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, GitLab and Git Bash"
+        "stacks": "Angular, JavaScript, Typescript, Laravel, PHP, Composer, MySQL, GitLab and Git Bash"
       }
     ]
   }
