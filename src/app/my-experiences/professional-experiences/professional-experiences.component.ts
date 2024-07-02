@@ -18,13 +18,18 @@ interface Experience {
   stacks: string;
 }
 
-
 @Component({
   selector: 'app-professional-experiences',
   standalone: true,
-  imports: [CommonModule, TranslateModule, MatCardModule, MatButtonModule, ProfessionalExperienceModalComponent],
+  imports: [
+    CommonModule,
+    TranslateModule,
+    MatCardModule,
+    MatButtonModule,
+    ProfessionalExperienceModalComponent,
+  ],
   templateUrl: './professional-experiences.component.html',
-  styleUrls: ['./professional-experiences.component.css']
+  styleUrls: ['./professional-experiences.component.css'],
 })
 export class ProfessionalExperiencesComponent implements OnInit {
   language$: Observable<string>;
@@ -43,24 +48,23 @@ export class ProfessionalExperiencesComponent implements OnInit {
   ngOnInit() {
     this.language$.subscribe((language) => {
       this.translate.use(language);
-      this.loadExperiences(); // Carregar experiências quando o idioma mudar
-      this.cdr.detectChanges(); // Forçar detecção de mudanças
+      this.loadExperiences();
+      this.cdr.detectChanges();
     });
   }
 
   loadExperiences() {
-    this.translate.get('professionalExperiences.experiences').subscribe((res: any[]) => {
-     console.log(res);
-     
-      this.experiences = res.map((experience: any) => ({
-        position: experience.position,
-        company: experience.company,
-        period: experience.period,
-        responsibilities: experience.responsibilities,
-        stacks: experience.stacks
-      }));
-    })
-    
+    this.translate
+      .get('professionalExperiences.experiences')
+      .subscribe((res: any[]) => {
+        this.experiences = res.map((experience: any) => ({
+          position: experience.position,
+          company: experience.company,
+          period: experience.period,
+          responsibilities: experience.responsibilities,
+          stacks: experience.stacks,
+        }));
+      });
   }
 
   openModal(experience: any) {
@@ -77,6 +81,6 @@ export class ProfessionalExperiencesComponent implements OnInit {
     if (this.experienceModal) {
       this.experienceModal.hide();
     }
-    this.cdr.detectChanges(); // Força a detecção de mudanças
+    this.cdr.detectChanges();
   }
 }

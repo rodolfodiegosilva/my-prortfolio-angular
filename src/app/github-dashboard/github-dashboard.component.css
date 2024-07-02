@@ -26,3 +26,10 @@
   font-size: 14px;
   color: #333;
 }
+
+.card-body {
+  padding: 0.5rem;
+}
+.mt-3 {
+  margin-top: 0.5rem !important;
+}
